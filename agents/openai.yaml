@@ -1,0 +1,6 @@
+interface:
+  display_name: "中文科研论证与评审写作"
+  short_description: "面向探测器定标与测试评审，保留公式推导和证据链，仅显式调用"
+  default_prompt: "使用 $scientific-review-writing 处理这份中文科研评审材料，按任务需要起草、审阅或仅修改文风，保留公式推导与证据边界。"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.py[cod]
+*.tmp
+*.bak
+~$*
+.env
+.env.*
