@@ -40,6 +40,8 @@
 - 给出关键近似的误差尺度，在明确条件下简化误差传播关系。
 - 让图示解释实际测量关系，让工程结论对应已有证据与验证范围。
 - 减少空泛反衬、重复免责声明和无实际作用的转折，保持正式科研语体。
+- 清楚表达证据支持的贡献，去除无依据的歉意与自我贬低，保留科学限定及不利结果。
+- 保持既定评价口径，依据双方证据讨论性能取舍，不为突出优势补造理由。
 
 ## 文件说明
 
@@ -47,7 +49,7 @@
 |---|---|
 | [SKILL.md](SKILL.md) | 技能入口、工作模式与内容保护规则 |
 | [agents/openai.yaml](agents/openai.yaml) | 显示信息与显式调用设置 |
-| [references/language-style.md](references/language-style.md) | 中文语体、章节衔接与正文信息取舍 |
+| [references/language-style.md](references/language-style.md) | 中文语体、反防御性表达、章节衔接与正文信息取舍 |
 | [references/scientific-reasoning.md](references/scientific-reasoning.md) | 建模、处理、推导、结果与实验设计 |
 | [references/boundary-examples.md](references/boundary-examples.md) | 具体修订示例与科学边界 |
 | [references/report-format.md](references/report-format.md) | 可按任务覆盖的图表与公式格式偏好 |
