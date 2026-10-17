@@ -33,10 +33,10 @@
 
 ## Gemini 中文审阅
 
-正文起草或修订后，默认使用 **Gemini 3.1 Pro** 审阅本次范围内的完整中文文稿，采用用户手动提交和回传的方式：
+正文起草或修订后，默认使用 **Gemini 4 Argon** 审阅本次范围内的完整中文文稿，采用用户手动提交和回传的方式：
 
 1. Codex 完成科学核查与初稿，准备包含审阅要求和完整正文的可复制文本。
-2. 用户在 Gemini 新对话中选择 3.1 Pro，提交材料。
+2. 用户在 Gemini 新对话中选择 4 Argon，提交材料。
 3. 用户将完整修订结果回传；Codex 检查覆盖范围、公式、数据、条件和结论，合并通过复核的修改。
 
 科学含义准确的中文修订优先保留，不再按 Codex 的惯用文风重写。默认不使用 Computer Use 或自动上传；只要求科学审阅或明确跳过此环节时，按本次任务范围执行。提示词准备完成不代表 Gemini 已完成审阅。交接模板、长文处理及回传核查见 [工作流说明](references/gemini-review.md)。
@@ -63,7 +63,7 @@
 | [references/scientific-reasoning.md](references/scientific-reasoning.md) | 建模、处理、推导、结果与实验设计 |
 | [references/boundary-examples.md](references/boundary-examples.md) | 具体修订示例与科学边界 |
 | [references/report-format.md](references/report-format.md) | 可按任务覆盖的图表与公式格式偏好 |
-| [references/gemini-review.md](references/gemini-review.md) | Gemini 3.1 Pro 中文审阅交接模板与回传复核 |
+| [references/gemini-review.md](references/gemini-review.md) | Gemini 4 Argon 中文审阅交接模板与回传复核 |
 
 本仓库包含技能规则与说明性示例，不包含实验原始数据或内部报告。示例中的数值不能作为新报告的实测依据。图内英文标注、Word 原生公式等为默认格式偏好，具体任务与模板要求优先。
 
